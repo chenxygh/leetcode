@@ -13,3 +13,15 @@ char * removeDuplicates(char * S){
     stack[top + 1] = '\0';
     return stack;
 }
+
+char * removeDuplicates(char * S){
+    int i = 0, j = 1;
+    for (;S[i] != '\0' && S[j] != '\0'; ++j) {
+        if (S[i] == S[j]) {
+            if (--i < 0) S[++i] = S[++j];
+        } else S[++i] = S[j];
+    }
+
+    S[i] != '\0'? S[i + 1] = '\0': 0;
+    return S;
+}
