@@ -49,4 +49,5 @@
 	* [interview10_01_合并排序的数组](interview10_01_合并排序的数组.md)
 	* [interview15_二进制中1的个数](interview15_二进制中1的个数.md)
 	* [interview17_10_主要元素](interview17_10_主要元素.md)
+	* [interview39_数组中出现次数超过一半的数字](interview39_数组中出现次数超过一半的数字.md)
 	* [interview53_I_在排序数组中查找数字_I](interview53_I_在排序数组中查找数字_I.md)
