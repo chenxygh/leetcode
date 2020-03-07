@@ -44,5 +44,6 @@
 	* [interview01_01_判定字符是否唯一](interview01_01_判定字符是否唯一.md)
 	* [interview01_02_判定是否互为字符重排](interview01_02_判定是否互为字符重排.md)
 	* [interview10_01_合并排序的数组](interview10_01_合并排序的数组.md)
+	* [interview15_二进制中1的个数](interview15_二进制中1的个数.md)
 	* [interview17_10_主要元素](interview17_10_主要元素.md)
 	* [interview53_I_在排序数组中查找数字_I](interview53_I_在排序数组中查找数字_I.md)
