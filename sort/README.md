@@ -51,6 +51,7 @@
 	* [interview10_01_合并排序的数组](interview10_01_合并排序的数组.md)
 	* [interview15_二进制中1的个数](interview15_二进制中1的个数.md)
 	* [interview17_10_主要元素](interview17_10_主要元素.md)
+	* [interview17_14_最小K个数](interview17_14_最小K个数.md)
 	* [interview32_I_从上到下打印二叉树](interview32_I_从上到下打印二叉树.md)
 	* [interview32_II_从上到下打印二叉树_II](interview32_II_从上到下打印二叉树_II.md)
 	* [interview39_数组中出现次数超过一半的数字](interview39_数组中出现次数超过一半的数字.md)
