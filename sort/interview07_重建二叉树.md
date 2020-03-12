@@ -35,5 +35,5 @@ T: O(N)
 S: O(N)
 
 
-[src](https://leetcode-cn.com/problems/smallest-k-lcci/) <br>
-[code](code/interview17_14.c) <br>
+[src](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) <br>
+[code](code/interview07.c) <br>
