@@ -67,6 +67,7 @@
 	* [interview02_02_返回倒数第_k_个节点](interview02_02_返回倒数第_k_个节点.md)
 	* [interview04_02_最小高度树](interview04_02_最小高度树.md)
 	* [interview07_重建二叉树](interview07_重建二叉树.md)
+	* [interview08_01_三步问题](interview08_01_三步问题.md)
 	* [interview10_01_合并排序的数组](interview10_01_合并排序的数组.md)
 	* [interview15_二进制中1的个数](interview15_二进制中1的个数.md)
 	* [interview17_10_主要元素](interview17_10_主要元素.md)
