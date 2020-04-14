@@ -1,5 +1,5 @@
 # leetcode
 
-### 记录刷 PAT  的过程
+### 记录刷 leetcode  的过程
 
 + [sort](sort)
