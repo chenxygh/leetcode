@@ -94,6 +94,7 @@
 	* [interview17_14_最小K个数](interview17_14_最小K个数.md)
 	* [interview17_16_按摩师](interview17_16_按摩师.md)
 	* [interview21_调整数组顺序使奇数位于偶数前面](interview21_调整数组顺序使奇数位于偶数前面.md)
+	* [interview24_反转链表](interview24_反转链表.md)
 	* [interview27_二叉树的镜像](interview27_二叉树的镜像.md)
 	* [interview32_I_从上到下打印二叉树](interview32_I_从上到下打印二叉树.md)
 	* [interview32_II_从上到下打印二叉树_II](interview32_II_从上到下打印二叉树_II.md)
