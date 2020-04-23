@@ -85,6 +85,7 @@
 	* [interview01_02_判定是否互为字符重排](interview01_02_判定是否互为字符重排.md)
 	* [interview02_02_返回倒数第_k_个节点](interview02_02_返回倒数第_k_个节点.md)
 	* [interview02_03_删除中间节点](interview02_03_删除中间节点.md)
+	* [interview02_04_分割链表](interview02_04_分割链表.md)
 	* [interview02_05_链表求和](interview02_05_链表求和.md)
 	* [interview02_06_回文链表](interview02_06_回文链表.md)
 	* [interview02_07_链表相交](interview02_07_链表相交.md)
