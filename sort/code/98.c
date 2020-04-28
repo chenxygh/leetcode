@@ -1,19 +1,55 @@
-int max (int a, int b) {
-    return a > b? a: b;
-}
-int largestRectangleArea(int* heights, int heightsSize){
-    if (heightsSize == 0) return 0;
-    int stack[heightsSize], top = -1, res = 0;
-    for (int i = 0; i < heightsSize; ++i) {
-        while (top != -1 && heights[stack[top]] > heights[i]) {
-            res = max (res, heights[stack[top]] * (top - 1 == -1? i: i - stack[top - 1] - 1));
-            --top;
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     struct TreeNode *left;
+ *     struct TreeNode *right;
+ * };
+ */
+
+// method 1: pre order  recursion
+// bool judge (struct TreeNode* root, struct TreeNode *min, struct TreeNode *max){
+//     if (root == NULL) return true;
+//     if (min && min->val >= root->val) return false;
+//     if (max && max->val <= root->val) return false;
+//     return judge (root->left, min, root) && judge (root->right, root, max);
+// }
+
+// bool isValidBST(struct TreeNode* root){
+//     return judge (root, NULL, NULL);
+// }
+
+// method 2: in order  recursion
+// bool inOrder (struct TreeNode *root, struct TreeNode **pre) {
+//     if (root) {
+//         if (!inOrder (root->left, pre)) return false;
+//         if (pre[0] && pre[0]->val >= root->val) return false;
+//         pre[0] = root;
+//         if (!inOrder (root->right, pre)) return false;
+//     }
+//     return true;
+// }
+
+// bool isValidBST(struct TreeNode* root){
+//     struct TreeNode *pre = NULL;
+//     return inOrder (root, &pre);
+// }
+
+
+// method 2: in order  iteration
+bool isValidBST(struct TreeNode* root){
+    struct TreeNode *stack[10000], *pre = NULL;
+    int top = -1;
+    while (top != -1 || root) {
+        if (root) {
+            stack[++top] = root;
+            root = root->left;
+        } else {
+            root = stack[top--];
+            if (pre && pre->val >= root->val) return false;
+            pre = root;
+            root = root->right;
         }
-        stack[++top] = i;
     }
-    while (top != -1) {
-        res = max (res, heights[stack[top]] * (top - 1 == -1? heightsSize: heightsSize - stack[top - 1] - 1));
-        --top;
-    }
-    return res;
+    return true;
 }
