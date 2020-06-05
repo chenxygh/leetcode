@@ -118,6 +118,7 @@
 	* [interview22_链表中倒数第k个节点](interview22_链表中倒数第k个节点.md)
 	* [interview24_反转链表](interview24_反转链表.md)
 	* [interview27_二叉树的镜像](interview27_二叉树的镜像.md)
+	* [interview29_顺时针打印矩阵](interview29_顺时针打印矩阵.md)
 	* [interview32_I_从上到下打印二叉树](interview32_I_从上到下打印二叉树.md)
 	* [interview32_II_从上到下打印二叉树_II](interview32_II_从上到下打印二叉树_II.md)
 	* [interview39_数组中出现次数超过一半的数字](interview39_数组中出现次数超过一半的数字.md)
