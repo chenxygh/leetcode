@@ -126,6 +126,7 @@
 	* [interview21_调整数组顺序使奇数位于偶数前面](interview21_调整数组顺序使奇数位于偶数前面.md)
 	* [interview22_链表中倒数第k个节点](interview22_链表中倒数第k个节点.md)
 	* [interview24_反转链表](interview24_反转链表.md)
+	* [interview25_合并两个排序的链表](interview25_合并两个排序的链表.md)
 	* [interview27_二叉树的镜像](interview27_二叉树的镜像.md)
 	* [interview29_顺时针打印矩阵](interview29_顺时针打印矩阵.md)
 	* [interview32_I_从上到下打印二叉树](interview32_I_从上到下打印二叉树.md)
