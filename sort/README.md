@@ -114,6 +114,7 @@
 	* [interview02_08_环路检测](interview02_08_环路检测.md)
 	* [interview04_02_最小高度树](interview04_02_最小高度树.md)
 	* [interview04_04_检查平衡性](interview04_04_检查平衡性.md)
+	* [interview05_07_配对交换](interview05_07_配对交换.md)
 	* [interview07_重建二叉树](interview07_重建二叉树.md)
 	* [interview08_01_三步问题](interview08_01_三步问题.md)
 	* [interview10_01_合并排序的数组](interview10_01_合并排序的数组.md)
