@@ -121,6 +121,7 @@
 	* [interview08_01_三步问题](interview08_01_三步问题.md)
 	* [interview10_01_合并排序的数组](interview10_01_合并排序的数组.md)
 	* [interview15_二进制中1的个数](interview15_二进制中1的个数.md)
+	* [interview16_15_珠玑妙算](interview16_15_珠玑妙算.md)
 	* [interview16_17_连续数列](interview16_17_连续数列.md)
 	* [interview17_10_主要元素](interview17_10_主要元素.md)
 	* [interview17_14_最小K个数](interview17_14_最小K个数.md)
