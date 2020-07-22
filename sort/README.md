@@ -156,3 +156,4 @@
 	* [interview62_圆圈中最后剩下的数字](interview62_圆圈中最后剩下的数字.md)
 	* [interview67_把字符串转换成整数](interview67_把字符串转换成整数.md)
 	* [offer65_不用加减乘除做加法](offer65_不用加减乘除做加法.md)
+	* [offer11_旋转数组的最小数字](offer11_旋转数组的最小数字.md)
