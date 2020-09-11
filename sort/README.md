@@ -136,6 +136,7 @@
 	* [interview08_01_三步问题](interview08_01_三步问题.md)
 	* [interview10_01_合并排序的数组](interview10_01_合并排序的数组.md)
 	* [interview15_二进制中1的个数](interview15_二进制中1的个数.md)
+	* [interview16_05_阶乘尾数](interview16_05_阶乘尾数.md)
 	* [interview16_15_珠玑妙算](interview16_15_珠玑妙算.md)
 	* [interview16_17_连续数列](interview16_17_连续数列.md)
 	* [interview17_01_不用加号的加法](interview17_01_不用加号的加法.md)
