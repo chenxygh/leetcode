@@ -162,5 +162,6 @@
 	* [interview58_II_左旋转字符串](interview58_II_左旋转字符串.md)
 	* [interview62_圆圈中最后剩下的数字](interview62_圆圈中最后剩下的数字.md)
 	* [interview67_把字符串转换成整数](interview67_把字符串转换成整数.md)
-	* [offer65_不用加减乘除做加法](offer65_不用加减乘除做加法.md)
+	* [offer10_II_青蛙跳台阶问题](offer10_II_青蛙跳台阶问题.md)
 	* [offer11_旋转数组的最小数字](offer11_旋转数组的最小数字.md)
+	* [offer65_不用加减乘除做加法](offer65_不用加减乘除做加法.md)
