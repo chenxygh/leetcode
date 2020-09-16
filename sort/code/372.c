@@ -1,17 +1,20 @@
-bool isValid (char *c) {
-    return (c >= '0' && c <= '9') || (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
+int quickPow (int base, int n, int mod) {
+    int res = 1;
+    while (n) {
+        base %= mod;
+        if (n & 1) res *= base;
+        base *= base;
+        n >>= 1;
+    }
+    return res % mod;
 }
 
-bool isPalindrome(char * s){
-    if (s == NULL || s[0] == '\0') return true;
-    int length = 0;
-    for (int i = 0; s[i] != '\0'; ++i) {
-        if (isValid (s[i])) s[length++] = tolower (s[i]);
+int superPow(int a, int* b, int bSize){
+    int base = a, res = 1, mod = 1337;
+    for (int i = bSize - 1; i >= 0; --i) {
+        res *= quickPow (base, b[i], mod) % mod;
+        res %= mod;
+        base = quickPow (base, 10, mod);
     }
-    int left = 0, right = length - 1;
-    while (left < right && s[left] == s[right]) {
-        ++left;
-        --right;
-    }
-    return left >= right;
+    return res % mod;
 }
